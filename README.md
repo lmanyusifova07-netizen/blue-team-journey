@@ -1,5 +1,3 @@
-# blue-team-journey
-My Blue Team and SOC learning journey
 # Blue Team Journey 🛡️
 
 This repository documents my journey into Blue Team and SOC cybersecurity.
