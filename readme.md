@@ -2,7 +2,9 @@
 
 This repository documents my journey into Blue Team and SOC cybersecurity.
 
-## What I've learned
+## Day 1 — Git, GitHub & Linux
+
+### What I've learned
 
 ### Git & GitHub
 - git init
@@ -32,9 +34,32 @@ This repository documents my journey into Blue Team and SOC cybersecurity.
 - uname -a
 - ip addr
 
-### SOC Fundamentals
-- Event
-- Alert
-- Incident
 
-I am learning cybersecurity through hands-on practice and building my skills step by step.
+
+
+## Day 2 — Linux, Permissions & Logs
+
+### Linuxs
+- Practiced `chmod` with numeric 
+- Practiced file and directory management
+- Learned how `~`, `.`, and `..` work
+- Learned the difference between files and directories
+- Practiced `rm`, `rm -r`, `mv`, `cp`, and other commands
+
+### Linux Permissions
+- Learned `read`, `write`, and `execute` permissions
+- Learned how to read permissions with `ls -l`
+- Learned owner, group, and otherand symbolic notation
+- Learned permission values: `r=4`, `w=2`, `x=1`
+
+### Logs
+- Learned what system logs are
+- Learned why SOC Analysts investigate logs
+- Practiced using `journalctl`
+- Learned how to filter logs by service and priority
+
+### SOC Investigation
+- Investigated SSH authentication logs
+- Identified failed and successful login attempts
+- Identified username and source IP
+- Practiced distinguishing suspicious activity from a confirmed incident
