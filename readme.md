@@ -66,8 +66,8 @@ This repository documents my journey into Blue Team and SOC cybersecurity.
 
 
 
-##Day 3 — Networking & Mini SOC Investigation
-###Networking
+## Day 3 — Networking & Mini SOC Investigation
+### Networking
 - Learned what an IP address is and how it identifies a host on a network
 - Learned the difference between network and host portions of an IPv4 address
 - Learned what a subnet mask does
@@ -88,6 +88,7 @@ HTTPS — 443
 DHCP — UDP 67/68
 
 
-HTTP — 80
-HTTPS — 443
-SSH — 22
+
+
+
+ 
