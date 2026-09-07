@@ -58,11 +58,6 @@ This repository documents my journey into Blue Team and SOC cybersecurity.
 - Practiced using `journalctl`
 - Learned how to filter logs by service and priority
 
-### SOC Investigation
-- Investigated SSH authentication logs
-- Identified failed and successful login attempts
-- Identified username and source IP
-- Practiced distinguishing suspicious activity from a confirmed incident
 
 
 
