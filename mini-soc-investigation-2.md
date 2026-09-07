@@ -4,7 +4,7 @@
 
 A firewall recorded the following network activity:
 
-
+```text
 Sep 07 14:32:11 firewall: ACCEPT TCP src=192.168.1.25:49152 dst=192.168.1.10:22
 Sep 07 14:32:13 firewall: ACCEPT TCP src=192.168.1.25:49153 dst=192.168.1.10:22
 Sep 07 14:32:15 firewall: ACCEPT TCP src=192.168.1.25:49154 dst=192.168.1.10:22
@@ -12,6 +12,7 @@ Sep 07 14:32:17 firewall: ACCEPT TCP src=192.168.1.25:49155 dst=192.168.1.10:22
 Sep 07 14:32:19 firewall: ACCEPT TCP src=192.168.1.25:49156 dst=192.168.1.10:22
 Sep 07 14:32:25 firewall: ACCEPT TCP src=192.168.1.25:49157 dst=192.168.1.10:443
 Sep 07 14:32:27 firewall: ACCEPT TCP src=192.168.1.25:49158 dst=192.168.1.10:443
+```
 
 ### My Analysis
 All recorded connections came from the same source IP: 192.168.1.25.
