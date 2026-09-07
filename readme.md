@@ -63,3 +63,31 @@ This repository documents my journey into Blue Team and SOC cybersecurity.
 - Identified failed and successful login attempts
 - Identified username and source IP
 - Practiced distinguishing suspicious activity from a confirmed incident
+
+
+
+##Day 3 — Networking & Mini SOC Investigation
+###Networking
+- Learned what an IP address is and how it identifies a host on a network
+- Learned the difference between network and host portions of an IPv4 address
+- Learned what a subnet mask does
+- Learned the difference between public and private IP addresses
+- Learned how NAT allows private devices to communicate with the internet
+- Learned the basics of IPv4 and IPv6
+- Learned the difference between static and dynamic IP addresses
+- Learned unicast, multicast, broadcast and anycast
+- Learned what network ports are and the basic port ranges
+- Learned what a socket is
+- Learned the difference between TCP and UDP
+- Learned the purpose of DNS and DHCP
+- Learned common protocols and ports:
+SSH — 22
+DNS — 53
+HTTP — 80
+HTTPS — 443
+DHCP — UDP 67/68
+
+
+HTTP — 80
+HTTPS — 443
+SSH — 22
