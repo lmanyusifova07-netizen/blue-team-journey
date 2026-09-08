@@ -83,6 +83,47 @@ HTTPS — 443
 DHCP — UDP 67/68
 
 
+## Day 4 — Windows Security & Logs
+
+### Windows Security Logs
+- Learned what Windows Event Viewer is
+- Learned how Windows Security Logs work
+- Learned what Event ID, Source, Level, User, and Computer mean
+- Learned the difference between Audit Success and Audit Failure
+- Learned how to filter Security Logs by Event ID
+
+### Event ID 4672
+- Learned what Event ID 4672 means
+- Learned what Special Logon means
+- Learned about `SYSTEM` and `NT AUTHORITY`
+- Learned that Audit Success does not always mean that an event is safe
+- Learned that Event ID 4672 is not necessarily malicious
+
+### Event ID 4624
+- Learned what Event ID 4624 means
+- Learned that Event ID 4624 indicates a successful logon
+- Learned how to check the logon type
+- Learned how to identify the account that logged on
+- Learned how to identify the source of a logon
+- Practiced analyzing successful logon events
+
+### Event ID 4625
+- Learned what Event ID 4625 means
+- Learned what Logon Type 2 means
+- Learned how to investigate failed logon attempts
+- Learned how to read Failure Reason and Status
+- Learned how to identify the process related to an event
+- Practiced checking Process ID in Task Manager
+
+### Mini SOC Investigation
+- Investigated failed Windows logon attempts
+- Identified `chrome.exe` as the caller process
+- Compared Event Viewer logs with Task Manager
+- Tested the behavior by opening and closing Chrome
+- Found a strong correlation between Chrome and Event ID 4625
+- Learned that suspicious activity needs further investigation before being classified as an incident
+
+
 
 
 
