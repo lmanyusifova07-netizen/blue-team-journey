@@ -115,13 +115,6 @@ DHCP — UDP 67/68
 - Learned how to identify the process related to an event
 - Practiced checking Process ID in Task Manager
 
-### Mini SOC Investigation
-- Investigated failed Windows logon attempts
-- Identified `chrome.exe` as the caller process
-- Compared Event Viewer logs with Task Manager
-- Tested the behavior by opening and closing Chrome
-- Found a strong correlation between Chrome and Event ID 4625
-- Learned that suspicious activity needs further investigation before being classified as an incident
 
 
 
