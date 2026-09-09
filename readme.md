@@ -116,6 +116,30 @@ DHCP — UDP 67/68
 - Practiced checking Process ID in Task Manager
 
 
+## Day 5 — Windows Processes
+
+### Processes
+- Learned what a process is
+- Learned what a PID is
+- Learned that each process has its own PID
+- Learned that one program can have multiple processes
+- Practiced finding processes and PIDs in Task Manager
+- Practiced checking process properties
+- Learned how to check process path, description, and company
+- Learned how to identify a suspicious process location
+- Learned why the process name alone is not enough
+- Learned what Analyze Wait Chain does
+
+### Process Investigation
+- Practiced investigating a suspicious `svchost.exe` process
+- Identified a suspicious process location
+- Learned that process information alone does not prove that a process is safe
+- Learned why suspicious files should not be deleted immediately
+- Learned the importance of preserving evidence
+- Learned how Parent PID can help identify the process that created another process
+- Practiced analyzing processes from a SOC Analyst perspective
+
+
 
 
 
