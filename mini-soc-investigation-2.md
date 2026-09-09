@@ -45,5 +45,5 @@ Sep 07 14:32:27 firewall: ACCEPT TCP src=192.168.1.25:49158 dst=192.168.1.10:443
 - Learned how to identify destination ports and protocols.
 - Learned that repeated connections from the same source can be a reason for further investigation.
 - Learned that firewall ACCEPT does not necessarily mean that network activity is safe.
-Learned the difference between suspicious activity, an alert, and a confirmed incident.
-Practiced approaching network activity from a SOC Analyst perspective.
+- Learned the difference between suspicious activity, an alert, and a confirmed incident.
+- Practiced approaching network activity from a SOC Analyst perspective.
