@@ -41,5 +41,5 @@ Description: Host Process for Windows Services
 - Learned that a normal process name does not always mean the process is safe.
 - Learned that company and description information should also be verified.
 - Learned why suspicious files should not be deleted immediately.
-Learned how Parent PID can help during process investigation.
-Practiced analyzing a suspicious process from a SOC Analyst perspective.
+- Learned how Parent PID can help during process investigation.
+- Practiced analyzing a suspicious process from a SOC Analyst perspective.
