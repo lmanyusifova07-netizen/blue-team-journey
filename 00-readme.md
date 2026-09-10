@@ -140,6 +140,37 @@ DHCP — UDP 67/68
 - Practiced analyzing processes from a SOC Analyst perspective
 
 
+## Day 6 — SIEM
+
+### SIEM Fundamentals
+- Learned what SIEM means
+- Learned how SIEM collects logs and events from different sources
+- Learned the difference between SIM and SEM
+- Learned how SIEM helps SOC Analysts analyze security events
+
+### SIEM Correlation
+- Learned what correlation means in SIEM
+- Learned how SIEM can correlate events from different sources
+- Learned how correlation rules can generate alerts
+- Learned the relationship between correlation, alerts, and investigation
+
+### SIEM Alerts
+- Learned what a SIEM alert is
+- Practiced reading alert information such as source IP, target, protocol, failed logins, severity, and priority
+- Learned that an alert does not automatically mean a confirmed security incident
+
+### Severity & Priority
+- Learned what Severity means
+- Learned what Priority means
+- Learned the difference between the seriousness of an event and the urgency of investigation
+
+### Mini SIEM Investigation
+- Investigated multiple failed SSH login attempts
+- Identified a possible brute-force attack pattern
+- Analyzed a successful login following multiple failed attempts
+- Practiced classifying suspicious activity
+- Identified further investigation steps
+- Learned how to approach SIEM alerts from a SOC Analyst perspective
 
 
 
