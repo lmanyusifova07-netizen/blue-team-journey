@@ -174,5 +174,39 @@ DHCP — UDP 67/68
 
 
 
+## Day 7 — SIEM Log Sources, Correlation & Query Logic
+
+### SIEM Log Sources
+- Learned what log sources are
+- Learned how SIEM collects logs from different sources
+- Practiced identifying Windows, Firewall, and VPN log sources
+- Learned why multiple log sources are useful during security investigations
+
+### Log → Event → Alert
+- Learned the relationship between logs, events, and alerts
+- Learned that an event represents an activity recorded by a system
+- Learned that SIEM can analyze events and generate alerts based on rules and patterns
+- Learned that an alert does not automatically mean a confirmed security incident
+
+### SIEM Query Logic
+- Learned how SIEM queries can be used to search for specific security events
+- Practiced filtering failed login attempts by username, IP address, and time period
+- Learned how to identify suspicious patterns in authentication logs
+- Practiced identifying possible brute-force activity
+
+### Log Correlation
+- Learned how to correlate events from different log sources
+- Practiced connecting Windows Security, Firewall, and VPN activity using the same source IP
+- Learned how correlation can provide a broader picture of suspicious activity
+- Learned that multiple related events can strengthen a security hypothesis
+
+### Practical Investigation
+- Investigated multiple failed login attempts followed by a successful login
+- Analyzed activity involving an administrator account
+- Practiced identifying suspicious authentication patterns
+- Learned to investigate activity after a successful login
+- Practiced identifying the device or IP involved in suspicious activity
+- Learned that suspicious activity should be investigated before being classified as a confirmed incident
+
 
  
